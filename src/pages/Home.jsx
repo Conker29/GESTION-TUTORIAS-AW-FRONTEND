@@ -1,6 +1,6 @@
 import estudiantes from '../assets/estudiantes.webp'
 import logoEPN from '../assets/logoEPN.svg';
-import logoESFOT from '../assets/logoESFOT.png';
+import logoESFOT from '../assets/logoEsfot.png';
 import { Link } from 'react-router';
 import { MdDashboard } from "react-icons/md";
 import { FaRobot } from "react-icons/fa";
