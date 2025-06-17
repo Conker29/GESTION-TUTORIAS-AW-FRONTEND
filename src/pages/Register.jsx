@@ -10,7 +10,7 @@ export const Register = () => {
 
     const registro = async (data) => {
         try {
-            const url = "http://localhost:3000/api/registro";
+            const url = "https://gestion-tutorias-aw.onrender.com/api/registro";
             const respuesta = await axios.post(url, data);
             toast.success(respuesta.data.msg);
         } catch (error) {
