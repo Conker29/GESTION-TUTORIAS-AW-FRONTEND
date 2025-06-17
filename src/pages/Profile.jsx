@@ -10,7 +10,7 @@ const Profile = () => {
             <div>
                 <h1 className='font-black text-4xl text-gray-500'>Perfil</h1>
                 <hr className='x'/>
-                <p className='mb-8'>Este módulo te permite gestionar el perfil del usuario</p>
+                <p className='mb-8'>Mediante este modulo el estudiante puede agendar una cita con su tutor</p>
             </div>
 
             <div className='flex justify-around gap-x-8 flex-wrap gap-y-8 md:flex-nowrap'>
