@@ -18,8 +18,8 @@ export const Home = () => {
             ">
                 {/* Contenedor para los logos */}
                 <div className="flex items-center space-x-2"> 
-                    <img src={logoEPN} alt="Logo EPN" className='w-25 h-auto' />   {/* Tamaños más pequeños para la cabecera */}
-                    <img src={logoESFOT} alt="Logo ESFOT" className='w-30 h-auto' /> {/* Tamaños más pequeños para la cabecera */}
+                    <img src={logoEPN} alt="Logo EPN" className='w-25 h-auto' />  
+                    <img src={logoESFOT} alt="Logo ESFOT" className='w-30 h-auto' /> 
                 </div>
                 
                 {/* Botón de LOGIN a la derecha */}
@@ -38,7 +38,7 @@ export const Home = () => {
                         transition-colors duration-300 
                     '
                 >
-                    LOGIN
+                    Iniciar sesión
                 </Link>
             </header>
 
@@ -60,8 +60,8 @@ export const Home = () => {
 
                 {/* Contenido Principal (Texto de bienvenida) */}
                 <div className='relative z-10 text-white md:w-1/2'> 
-                    <h1 className='text-center font-lato font-extrabold uppercase text-4xl my-4 md:text-6xl'>
-                        BIENVENIDO A LA PLATAFORMA
+                    <h1 className='text-center font-lato font-extrabold text-4xl my-4 md:text-6xl'>
+                        Bienvenido a la plataforma
                     </h1>
                     <p className='text-center text-2xl my-6 font-sans'>
                         Agenda una cita con tu tutor académico de acuerdo a su disponibilidad aquí
