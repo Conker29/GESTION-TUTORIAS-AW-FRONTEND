@@ -15,6 +15,8 @@ const Login = () => {
     const loginUser = async (data) => {
         const url = `${import.meta.env.VITE_BACKEND_URL}/login`;
         const response = await fetchDataBackend(url, data, 'POST');
+        setToken(response.token)
+        setRol(response.rol)
         if (response) {
             navigate('/dashboard');
         }
@@ -32,7 +34,7 @@ const Login = () => {
             <div className="relative z-10 bg-white bg-opacity-90 p-8 rounded-xl shadow-2xl w-full max-w-md">
                 <ToastContainer />
 
-                <h1 className="text-3xl font-semibold mb-2 text-center uppercase text-amber-900">
+                <h1 className="text-3xl font-semibold mb-2 text-center text-amber-900">
                     Bienvenido al sistema
                 </h1>
                 <small className="text-gray-400 block my-4 text-sm text-center">
