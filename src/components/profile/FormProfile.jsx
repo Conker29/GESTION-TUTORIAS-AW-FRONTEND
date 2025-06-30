@@ -26,7 +26,7 @@ const FormularioPerfil = () => {
     return (
         <form onSubmit={handleSubmit(updateUser)}>
             <div>
-                <label className="mb-2 block text-sm font-semibold">Nombre</label>
+                <label className="mb-4 block text-sm font-semibold">Nombre</label>
                 <input
                     type="text"
                     placeholder="Ingresa tu nombre"
@@ -49,7 +49,7 @@ const FormularioPerfil = () => {
             <div>
                 <label className="mb-2 block text-sm font-semibold">Teléfono</label>
                 <input
-                    type="number"
+                    type="text"
                     placeholder="Ingresa tu teléfono"
                     className="block w-full rounded-md border border-gray-300 py-1 px-2 text-gray-500 mb-5"
                     {...register("celular", { required: "El celular es obligatorio" })}
@@ -71,7 +71,7 @@ const FormularioPerfil = () => {
 
             <input
                 type="submit"
-                className="bg-gray-800 w-full p-2 mt-5 text-slate-300 uppercase font-bold rounded-lg hover:bg-gray-600 cursor-pointer transition-all"
+                className="bg-red-900 w-full p-2 mt-5 text-white font-bold rounded-lg hover:bg-gray-600 cursor-pointer transition-all"
                 value="Actualizar"
             />
         </form>
