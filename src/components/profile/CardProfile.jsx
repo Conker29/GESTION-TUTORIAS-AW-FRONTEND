@@ -11,7 +11,7 @@ export const CardProfile = () => {
                         flex flex-col items-center justify-between shadow-xl rounded-lg">
             <div className="relative">
                 <img src="https://static.vecteezy.com/system/resources/previews/036/280/651/non_2x/default-avatar-profile-icon-social-media-user-image-gray-avatar-icon-blank-profile-silhouette-illustration-vector.jpg" width={120} height={120} />
-                <label className="absolute bottom-0 right-0 bg-blue-400  text-white rounded-full p-2 cursor-pointer hover:bg-emerald-400">📷
+                <label className="absolute bottom-0 right-0 bg-gray-300  text-white rounded-full p-2 cursor-pointer hover:bg-emerald-400">📤
                     <input type="file" accept="image/*" className="hidden" />
                 </label>
             </div>
